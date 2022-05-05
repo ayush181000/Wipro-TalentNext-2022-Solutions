@@ -1,3 +1,5 @@
+// 6
+
 import java.util.Arrays;
 
 public class ArraysSorting {
@@ -6,6 +8,9 @@ public class ArraysSorting {
 
 		Arrays.sort(arr);
 
-		System.out.println(arr[0] + " " + arr[1] + " " + arr[arr.length - 2] + " " + arr[arr.length - 1]);
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
+
 	}
 }
