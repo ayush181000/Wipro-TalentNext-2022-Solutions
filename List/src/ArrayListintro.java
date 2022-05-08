@@ -1,15 +1,13 @@
 // 1
 
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.ListIterator;
 
 public class ArrayListintro {
 
 	public static void main(String[] args) {
 
 		ArrayList<String> list = new ArrayList<>();
-		
+
 		list.add("jan");
 		list.add("feb");
 		list.add("mar");
@@ -22,11 +20,11 @@ public class ArrayListintro {
 		list.add("oct");
 		list.add("nov");
 		list.add("dec");
-		
-		for(int i = 0 ; i < list.size();i++) {
+
+		for (int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i));
 		}
-		
+
 	}
 
 }
