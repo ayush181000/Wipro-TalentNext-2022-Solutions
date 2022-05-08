@@ -36,4 +36,9 @@ public class Employee {
 		return this.salary;
 	}
 
+	@Override
+	public String toString() {
+		return new String("Id : " + empId + " , Name : " + empName + " , email : " + email);
+	}
+
 }
