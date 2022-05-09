@@ -1,0 +1,12 @@
+
+public class StringsMerge {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		args[0] = "ABC";
+		args[1] = "Mumbai";
+		System.out.println(args[0]+" Technologies " + args[1]);
+
+	}
+
+}

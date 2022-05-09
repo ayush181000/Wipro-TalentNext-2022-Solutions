@@ -1,0 +1,10 @@
+package testPackage;
+
+public class Foundation {
+	
+	private int var1;
+	public int var2;
+	default int var3;
+	protected int var4;
+
+}

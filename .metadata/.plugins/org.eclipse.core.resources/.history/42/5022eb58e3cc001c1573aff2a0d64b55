@@ -1,0 +1,6 @@
+// 2 a
+
+public class Person {
+	private String name;
+	
+}

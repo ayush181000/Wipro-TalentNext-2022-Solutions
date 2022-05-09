@@ -1,0 +1,6 @@
+package music;
+// 1
+
+public interface Playable {
+
+}

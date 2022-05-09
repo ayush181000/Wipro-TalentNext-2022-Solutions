@@ -1,0 +1,7 @@
+
+public class Employee {
+	private Person person;
+	private double salary;
+	private int yearJoin;
+	private String insuranceNumber;
+}

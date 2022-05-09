@@ -1,0 +1,7 @@
+// 2 b
+
+public class EmployeeDB {
+
+	ArrayList<Employee> list;
+	
+}

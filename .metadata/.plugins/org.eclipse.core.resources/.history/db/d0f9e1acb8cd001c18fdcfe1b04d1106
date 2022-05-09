@@ -1,0 +1,13 @@
+import testPackage.Foundation;
+
+public class TestPackage {
+	public static void main(String[] args) {
+		
+		Foundation f = new Foundation();
+		
+		System.out.println(var1);
+		System.out.println(var2);
+		System.out.println(var3);
+		System.out.println(var4);
+	}
+}

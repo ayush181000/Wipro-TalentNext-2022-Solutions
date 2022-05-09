@@ -1,0 +1,19 @@
+
+public class TestCompartment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Compartment[] comp ;
+		
+		int i = 0 ;
+		while(i<10) {
+			int x = (int)(Math.random() * 4) ;
+			System.out.println(x);
+			
+			i++;
+		}
+
+	}
+
+}

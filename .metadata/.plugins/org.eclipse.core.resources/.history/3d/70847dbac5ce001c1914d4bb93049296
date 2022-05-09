@@ -1,0 +1,14 @@
+// 2 b
+
+import java.util.ArrayList;
+
+public class EmployeeDB {
+
+	ArrayList<Employee> list;
+	
+	boolean addEmployee(Employee e) {
+		list.add(e);
+		return true;
+	}
+
+}

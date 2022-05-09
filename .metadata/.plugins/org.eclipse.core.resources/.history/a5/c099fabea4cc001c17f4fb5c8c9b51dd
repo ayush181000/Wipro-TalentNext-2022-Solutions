@@ -1,0 +1,7 @@
+package LanguageBasics;
+
+public class StringMerge {
+	public static void main(String[] args) {
+		
+	}
+}

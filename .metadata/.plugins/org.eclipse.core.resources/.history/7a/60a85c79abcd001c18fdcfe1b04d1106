@@ -1,0 +1,11 @@
+
+public class TestCompartment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Compartment[] comp = new Compartment();
+
+	}
+
+}

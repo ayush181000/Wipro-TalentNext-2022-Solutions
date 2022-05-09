@@ -1,0 +1,14 @@
+// 3
+
+public class NCopy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "Wipro";
+		int n = str.length();
+		
+	}
+	
+
+}

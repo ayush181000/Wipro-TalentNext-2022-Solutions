@@ -1,0 +1,29 @@
+// 3 d
+
+package com.automobile;
+
+import com.automobile.twowheeler.*;
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Hero he = new Hero();
+		Honda ho = new Honda();
+		
+		he.radio();
+		ho.cdplayer();
+		
+		
+		Logan l = new Logan();
+		
+	}
+
+}
+
+// OUTPUT
+/**
+ *  Radio is now true
+ * 	CD is now true
+ */

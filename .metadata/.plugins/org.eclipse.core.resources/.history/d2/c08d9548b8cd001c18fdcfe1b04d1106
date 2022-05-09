@@ -1,0 +1,4 @@
+import testPackage;
+public class TestPackage {
+
+}
