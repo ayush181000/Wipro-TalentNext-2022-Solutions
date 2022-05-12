@@ -1,7 +1,0 @@
-package com.LanguageBasics;
-
-public class StringMerge {
-	public static void main(String[] args) {
-		
-	}
-}
