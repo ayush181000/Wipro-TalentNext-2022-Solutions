@@ -1,7 +1,0 @@
-package com.automobile.fourwheeler;
-
-import com.automobile.Vehicle;
-
-public class Logan extends Vehicle{
-	
-}

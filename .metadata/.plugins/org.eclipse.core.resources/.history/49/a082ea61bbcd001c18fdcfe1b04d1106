@@ -1,7 +1,0 @@
-package com.automobile.twowheeler;
-
-import com.automobile.*;
-
-public class Honda extends Vehicle{
-
-}

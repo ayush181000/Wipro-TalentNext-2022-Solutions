@@ -1,7 +1,0 @@
-// 2 b
-
-public class Test {
-	Shape shape = new Shape();
-	
-	Shape.Circle circle= new Shape.Circle();
-}

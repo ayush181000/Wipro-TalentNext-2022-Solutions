@@ -1,9 +1,0 @@
-// 1 b
-
-public class Bird extends Animal {
-	
-//	public void eat() {
-//		System.out.println("Bird is eating");
-//	}
-	
-}
