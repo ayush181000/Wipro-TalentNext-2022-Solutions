@@ -4,18 +4,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-public class DailyTasksTest {
+public class DailyTasksTest2 {
 
 	@Test
 	public void test() {
 		DailyTasks d = new DailyTasks();
 		String output = d.doStringConcat("abc", "null");
-		
-//		assertEquals("abc null", output);
-
-//		assertArrayEquals(new int[] { 1, 2, 3 }, d.sortValues(new int[] { 3, 2, 1 }));
-
-		assertTrue(d.checkPresence("abcdeeee", "ab"));
+		assertEquals("abc null", output);
 	}
 
 }
