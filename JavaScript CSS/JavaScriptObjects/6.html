@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Script tag can also be placed here -->
+  </head>
+  <body>
+    Enter First Number :
+    <br />
+    <input type="text" id="Text1" name="TextBox1" />
+    <br />Enter Second Number :
+    <br />
+    <input type="text" id="Text2" name="TextBox2" />
+    <br />Result :
+    <br />
+    <input type="text" id="txtresult" name="TextBox3" />
+    <br />
+    <input
+      type="button"
+      name="clickbtn"
+      value="Display Result"
+      onclick="func()"
+    />
+
+    <!-- Script tag inside the body -->
+    <script>
+      const func = () => {
+        let text = document.getElementById("Text1");
+        let result = text.toUpperCase();
+        document.getElementById("txtresult").value = result;
+        console.log(result);
+      };
+    </script>
+  </body>
+</html>

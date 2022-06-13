@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>HTML Forms</h2>
+
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+      <input type="submit" value="Submit" />
+
+      <p>Kindly Select your favorite color</p>
+      <input type="radio" name="color" value="red" /> Red <br />
+      <input type="radio" name="color" value="blue" /> blue <br />
+      <input type="radio" name="color" value="green" />green <br />
+      <input type="radio" name="color" value="pink" />pink <br />
+      <input type="submit" value="submit" />
+
+      <label>Enter your Name:</label>
+      <input type="text" name="name" />
+      <p>Kindly Select your favourite sports</p>
+      <input type="checkbox" name="sport1" value="cricket" />Cricket<br />
+      <input type="checkbox" name="sport2" value="tennis" />Tennis<br />
+      <input type="checkbox" name="sport3" value="football" />Football<br />
+      <input type="checkbox" name="sport4" value="baseball" />Baseball<br />
+      <input
+        type="checkbox"
+        name="sport5"
+        value="badminton"
+      />Badminton<br /><br />
+      <input type="submit" value="submit" />
+    </form>
+
+    <p>
+      If you click the "Submit" button, the form-data will be sent to a page
+      called "/action_page.php".
+    </p>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Script tag can also be placed here -->
+  </head>
+  <body>
+    <p>Before the script...</p>
+
+    <!-- Script tag inside the body -->
+    <script>
+      const func = () => {
+        let rev = 0;
+        let num = 123456;
+        let lastDigit;
+
+        while (num != 0) {
+          lastDigit = num % 10;
+          rev = rev * 10 + lastDigit;
+          num = Math.floor(num / 10);
+        }
+
+        console.log("Reverse number : " + rev);
+      };
+    </script>
+
+    <p>...After the script.</p>
+  </body>
+</html>

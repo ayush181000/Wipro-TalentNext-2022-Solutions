@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!-- Script tag can also be placed here -->
+  </head>
+  <body>
+    <p>Before the script...</p>
+
+    <!-- Script tag inside the body -->
+    <script>
+      function camelize(str) {
+        return str
+          .replace(/(?:^\w|[A-Z]|\b\w)/g, function (word, index) {
+            return index === 0 ? word.toLowerCase() : word.toUpperCase();
+          })
+          .replace(/\s+/g, "");
+      }
+
+      camelize("EquipmentClass name");
+      camelize("Equipment className");
+      camelize("equipment class name");
+      camelize("Equipment Class Name");
+      // all output "equipmentClassName"
+    </script>
+
+    <p>...After the script.</p>
+  </body>
+</html>
