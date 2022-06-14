@@ -1,0 +1,14 @@
+@media (orientation: portrait) { #grid { display: grid; grid-template-areas:
+"title stats" "score stats" "board board" "ctrls ctrls"; grid-template-columns:
+auto 1fr; grid-template-rows: auto auto 1fr auto; } } @media (orientation:
+landscape) { #grid { display: grid; grid-template-areas: "title board" "stats
+board" "score ctrls"; grid-template-columns: auto 1fr; grid-template-rows: auto
+1fr auto; } } #title { grid-area: title } #score { grid-area: score } #stats {
+grid-area: stats } #board { grid-area: board } #controls { grid-area: ctrls }
+<div id="grid">
+  <div id="title">Game Title</div>
+  <div id="score">Score</div>
+  <div id="stats">Stats</div>
+  <div id="board">Board</div>
+  <div id="controls">Controls</div>
+</div>
