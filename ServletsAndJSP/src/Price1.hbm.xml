@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping
+DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping3.0.dtd">
+<hibernate-mapping>
+ <class name="com.wipro.Price" table="Flower25">
+ <id name="Flowerid" column="Flowerid" type="int">
+ <generator class="assigned" >
+ <!-- param name="sequence">xmlseq</param -->
+ </generator>
+ </id>
+ <property name="FlowerName" column="florname" type="string"
+length="25"/>
+ <property name="Flowercolor" column="Florcolor" type="string"
+length="25"/>
+ </class>
+</hibernate-mapping>
