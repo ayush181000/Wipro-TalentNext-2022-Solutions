@@ -1,0 +1,35 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl "href="Rule.xsl" ?>
+ <student>
+  <s>
+   <name> Divyank Singh Sikarwar </name>
+   <branch> CSE</branch>
+   <age>18</age>
+   <city> Agra </city>
+  </s>
+  <s>
+   <name> Aniket Chauhan </name>
+   <branch> CSE</branch>
+   <age> 20</age>
+   <city> Shahjahanpur </city>
+  </s>
+  <s> 
+   <name> Simran Agarwal</name>
+   <branch> CSE</branch>
+   <age> 23</age>
+   <city> Buland Shar</city>
+  </s>
+  <s> 
+   <name> Abhay Chauhan</name>
+   <branch> CSE</branch>
+   <age> 17</age>
+   <city> Shahjahanpur</city>
+  </s>
+  <s> 
+   <name> Himanshu Bhatia</name>
+   <branch> IT</branch>
+   <age> 25</age>
+   <city> Indore</city>
+  </s>
+ </student>
